@@ -110,7 +110,7 @@ db.books.insertMany([
   }
 ]);
 
-//Find all books in a specific genre (e.g., "Mystery"):
+//Find all books in a specific genre 
 db.books.find({ genre: "Mystery" });
 
 // Find books published after a certain year (e.g., 2015):
