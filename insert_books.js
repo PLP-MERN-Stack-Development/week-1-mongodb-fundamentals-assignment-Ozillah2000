@@ -133,7 +133,6 @@ const books = [
     publisher: 'Thomas Cautley Newby'
   }
 ];
-
 // Function to insert books into MongoDB
 async function insertBooks() {
   const client = new MongoClient(uri);
@@ -177,7 +176,6 @@ async function insertBooks() {
 
 // Run the function
 insertBooks().catch(console.error);
-
 /*
  * Example MongoDB queries you can try after running this script:
  *
